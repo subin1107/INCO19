@@ -1,0 +1,17 @@
+﻿<html>
+<head>
+<title> whathacker </title>
+</head>
+<body>
+<form method="get" action="print.php">
+이름: &nbsp;<INPUT type=“text" name="myname" size="10"><br>
+성별: &nbsp; <input type="radio" name="gender" value="여성" size="10"/>여성
+  <input type="radio" name="gender" value="남성" size="10"/>남성 <br><br>
+취미: &nbsp; <input type="checkbox" name="hobby" value="독서" size="10"/>독서
+  <input type="checkbox" name="hobby" value="음악감상" size="10"/>음악감상
+<input type="checkbox" name="hobby" value="걷기" size="10"/>걷기<br><br><br><br><br>
+
+자기소개<textarea cols="60" rows="10" name="intro" size="10">자신을 소개해주세요.</textarea><br><br>
+<input type="submit" value="제출">
+<input type="button" name = "register" value = "회원가입" onclick = "location.href='http://localhost/login.php'"; />
+<input type="button" value="취소">
